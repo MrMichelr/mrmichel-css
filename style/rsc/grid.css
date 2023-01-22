@@ -20,7 +20,7 @@ p + h3, ul + h3, ol + h3 {
     margin-top: 1.6em !important;
 }
 
-p + *, ul + *, ol + * {
+p + *, ul + *, ol + *, .notion-text + * {
     margin-top: .8em !important;
 }
 

@@ -3,7 +3,7 @@
 html,
 body,
 div,
-span,
+span:not(:has(+ img)),
 applet,
 object,
 iframe,
