@@ -16,3 +16,7 @@ img, picture{
     padding: unset !important;
     position: relative !important;
 }
+
+.notion-image span img{
+    margin: 0 !important;
+}
