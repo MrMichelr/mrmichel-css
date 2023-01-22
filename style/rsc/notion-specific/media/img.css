@@ -2,7 +2,7 @@ img, picture{
     width: 100% !important;
     display: block !important;
     max-width: 100% !important;
-    margin: 1.5em auto 1.5em 0 !important;
+    
 }
 
 .notion-image span{
@@ -16,6 +16,6 @@ img, picture{
     position: relative !important;
 }
 
-.notion-image span img{
-    margin: 0 !important;
+.notion-image{
+    margin: 1.5em auto 1.5em 0 !important;
 }

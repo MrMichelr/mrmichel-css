@@ -2,7 +2,7 @@
 
 html,
 body,
-div:not(.notion-embed__container__wrapper),
+div,
 span:not(:has(+ img)):not(:has(+ video)),
 applet,
 object,

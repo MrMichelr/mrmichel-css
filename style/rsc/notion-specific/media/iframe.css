@@ -1,0 +1,8 @@
+.notion-embed__container, .notion-embed__container > iframe {
+    position: relative !important;
+}
+
+.notion-embed__container > iframe {
+    aspect-ratio: 16/8 !important;
+    border-radius: 1em !important;
+}

@@ -2,7 +2,6 @@
     font-family: 'Courier New', Courier, monospace !important;
     border: 1px solid #d2d2d7 !important;
     background-color: var(--color-bg-darker) !important;
-    margin-bottom: 1.5em !important;
     padding: 20px 30px 20px !important;
     white-space: pre-wrap !important;
     transform: translate3d(0, 0, 0) !important;
