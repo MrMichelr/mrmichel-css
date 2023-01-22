@@ -19,6 +19,11 @@ h1.notion-heading {
     font-weight: 600 !important;
     letter-spacing: -.003em !important;
 }
+
+* + h1.notion-heading {
+    margin-top: 60px !important;
+}
+
 h1 .highlighted-color.color-gray,
 h2 .highlighted-color.color-gray {
     color: inherit !important;
@@ -41,14 +46,14 @@ h2.notion-heading {
     line-height: 1.1 !important;
     font-weight: 600 !important;
     letter-spacing: 0em !important;
-    padding-top: 40px !important;
+    margin-top: 40px !important;
 }
 h3.notion-heading {
     font-size: 2rem !important;
     line-height: 1.125 !important;
     font-weight: 600 !important;
     letter-spacing: .004em !important;
-    padding-top: 20px !important;
+    margin-top: 20px !important;
 }
 
 /* links */

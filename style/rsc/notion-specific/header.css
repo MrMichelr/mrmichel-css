@@ -24,6 +24,7 @@
 
 .super-navbar__logo-image img{
     border-radius: 0 !important;
+    margin: 0 !important;
 }
 
 .super-navbar__item-list {
@@ -59,9 +60,13 @@
     .super-navbar__item-list {
         display: none !important;
     }
-    
+
     .super-navbar__logo {   
         position: relative !important;
+    }
+
+    .super-navbar__content {
+        padding: 1em !important;
     }
 }
 

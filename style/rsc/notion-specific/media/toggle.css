@@ -1,0 +1,32 @@
+.notion-toggle.closed {
+    border-radius: 1em !important;
+    padding: .1em .3em !important;
+}
+
+.notion-toggle__summary {
+    align-items: center !important;
+}
+
+.notion-toggle__trigger {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 1.47059rem !important;
+    flex: 0 0 1.294rem !important;
+    width: 1.294rem !important;
+    margin-right: 1rem !important;
+}
+
+.notion-toggle__trigger_icon {}
+
+.notion-toggle .notion-semantic-string{
+    font-weight: 600 !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.notion-toggle__content {
+    margin-left: 2.294rem !important;
+    justify-content: flex-start !important;
+    font-weight: inherit !important;
+}

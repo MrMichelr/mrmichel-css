@@ -3,6 +3,11 @@
     display: none !important;
 }
 
+.notion-collection-gallery img{
+    margin: 0 !important;
+}
+
+
 /* Big Cards */
 
 .notion-collection-gallery.large {
