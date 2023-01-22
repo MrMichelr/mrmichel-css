@@ -41,6 +41,7 @@
     /* Other */
     --color-bg-default: #F3F2F2 !important;
     --color-bg-darker: #FBFAFA !important;
+    --color-bg-menu: rgba(255, 255, 255, .6) !important;
 
     --column-spacing: 1rem;
 

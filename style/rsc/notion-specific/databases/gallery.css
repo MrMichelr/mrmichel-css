@@ -130,6 +130,7 @@
 
 .notion-collection-card__cover.large span {
     aspect-ratio: 4/3 !important;
+    height: 100% !important;
 }
 
 
