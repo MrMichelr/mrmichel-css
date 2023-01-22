@@ -3,7 +3,7 @@ const fs = require('fs');
 
 var minify = new CleanCSS().minify(['./style/style.css'])
 
-console.log (minify)
+console.log (minify);
 
 fs.writeFile('./style/style.min.css', minify.styles, err => {
     if (err) {
