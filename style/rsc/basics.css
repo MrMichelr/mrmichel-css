@@ -1,6 +1,6 @@
 /* ------ Basics ------ */
 
-:root.light {
+:root {
 
     /* Text */
     --color-text-default: #272932 !important;
