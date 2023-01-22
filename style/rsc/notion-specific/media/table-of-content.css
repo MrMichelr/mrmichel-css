@@ -1,0 +1,32 @@
+.notion-table-of-contents {
+    margin: 0 !important;
+    list-style: none !important;
+}
+
+.notion-table-of-contents__item {
+    cursor: pointer !important;
+    font-size: 0.8rem !important;
+    font-weight: 400 !important;
+
+    margin-bottom: 14px !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+
+    overflow: hidden !important;
+    list-style-type: none !important;
+}
+
+.notion-table-of-contents__item div[style~="24px;"] {
+    margin-inline-start: 1rem !important;
+}
+
+.notion-table-of-contents__item div[style~="48px;"] {
+    margin-inline-start: 2rem !important;
+}
+
+.notion-table-of-contents__item 
+.notion-semantic-string:not(.no-border) {
+    background-image: none !important;
+    padding: 0 !important;
+}

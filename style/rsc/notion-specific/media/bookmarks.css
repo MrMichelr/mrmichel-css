@@ -1,0 +1,67 @@
+.notion-bookmark {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    position: relative !important;
+    margin: 1.5em auto !important;
+}
+
+.notion-bookmark .notion-link {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 1em !important;
+    padding: 2em 3em !important;
+    background-color: white !important;
+
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    gap: 1em !important;
+
+}
+.notion-bookmark__cover {
+    border-radius: 8px !important;
+    height: auto !important;
+}
+
+.notion-bookmark__content h5{
+    font-size: 1.2rem !important;
+    line-height: 1.125 !important;
+    font-weight: 600 !important;
+    letter-spacing: .004em !important;
+
+    margin-bottom: .8em !important;
+}
+
+.notion-bookmark__description {
+    margin: 0 !important;
+    font-size: 1rem !important;
+    line-height: 1.47059 !important;
+    font-weight: 400 !important;
+    height: auto !important;
+    opacity: 1 !important;
+}
+
+.notion-bookmark__link::after {
+    content: '↗︎';
+    position: relative;
+    margin-left: 4px;
+    top: -2;
+}
+
+@media only screen and (max-width: 1068px) {
+    .notion-bookmark__content h5{
+        font-size: 1rem !important;
+        line-height: 1.14286 !important;
+        font-weight: 600 !important;
+        letter-spacing: .007em !important;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .notion-bookmark__content h5{
+        font-size: 1rem !important;
+        line-height: 1.16667 !important;
+        font-weight: 600 !important;
+        letter-spacing: .009em !important;
+    }
+}

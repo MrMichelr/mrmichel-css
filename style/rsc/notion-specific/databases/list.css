@@ -1,0 +1,32 @@
+.notion-collection-list__item {
+    margin-top: 15px !important;
+    display: block !important;
+
+    border-radius: 1em !important;
+    padding: .1em .3em !important;
+}
+
+.notion-collection-list__item .notion-property__title {
+    font-weight: 600 !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.notion-collection-list__item .notion-property__title:has(.notion-property__title__icon-wrapper){
+    display: inline-flex !important;
+}
+
+.notion-collection-list__item .notion-property__title__icon-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 1.47059rem !important;
+    flex: 0 0 1.294rem !important;
+    width: 1.294rem !important;
+    margin-right: 1rem !important;
+}
+
+.notion-collection-list__item-content {
+    margin-left: 2.294rem !important;
+    justify-content: flex-start !important
+}

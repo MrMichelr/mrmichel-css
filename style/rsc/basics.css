@@ -1,0 +1,92 @@
+/* ------ Basics ------ */
+
+:root.light {
+
+    /* Text */
+    --color-text-default: #272932 !important;
+    --color-text-gray: #525565 !important;
+    --color-text-brown: rgb(100, 71, 58);
+    --color-text-orange: #FF7100 !important;
+    --color-text-yellow: #FFBE00 !important;
+    --color-text-green: #27DD7F !important;
+    --color-text-blue: #007AFF !important;
+    --color-text-purple: #644EDB !important;
+    --color-text-pink: rgb(173, 26, 114);
+    --color-text-red: #FF2F5E !important;
+
+    /* BG */
+    --color-bg-default: rgb(255, 255, 255);
+    --color-bg-gray: #525565 !important;
+    --color-bg-brown: rgb(233, 229, 227);
+    --color-bg-orange: #FF7100 !important;
+    --color-bg-yellow: #FFBE00 !important;
+    --color-bg-green: #27DD7F !important;
+    --color-bg-blue: #007AFF !important;
+    --color-bg-purple: #644EDB !important;
+    --color-bg-pink: rgb(244, 223, 235);
+    --color-bg-red: #FF2F5E !important;
+
+    /* Tags */
+    --color-pill-default: rgba(206, 205, 202, 0.5);
+    --color-pill-gray: rgba(155, 154, 151, 0.4);
+    --color-pill-brown: rgba(140, 46, 0, 0.2);
+    --color-pill-orange: rgba(245, 93, 0, 0.2);
+    --color-pill-yellow: rgba(233, 168, 0, 0.2);
+    --color-pill-green: rgba(0, 135, 107, 0.2);
+    --color-pill-blue: rgba(0, 120, 223, 0.2);
+    --color-pill-purple: rgba(103, 36, 222, 0.2);
+    --color-pill-pink: rgba(221, 0, 129, 0.2);
+    --color-pill-red: rgba(255, 0, 26, 0.2);
+
+    /* Other */
+    --color-bg-default: #F3F2F2 !important;
+    --color-bg-darker: #FBFAFA !important;
+
+    --column-spacing: 1rem;
+
+}
+
+:root.dark {}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth !important;
+}
+*, *:before, *:after {
+    box-sizing: inherit !important;
+}
+
+img, picture {
+    max-width: 100% !important;
+    display: block !important;
+    border-radius: 1em !important;
+}
+
+table {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    -webkit-text-decoration-skip: ink !important;
+    text-decoration-skip-ink: auto !important;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto !important;
+    }
+
+    *,
+    *::before,
+    *::after {
+        -webkit-animation-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        -webkit-animation-iteration-count: 1 !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

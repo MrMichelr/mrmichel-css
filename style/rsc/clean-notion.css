@@ -1,0 +1,31 @@
+/* Clean Default Notion States */
+
+.notion-header__icon-wrapper {
+    display: none !important;
+}
+
+.notion-header__title {
+    display: none !important;
+}
+
+.notion-header__cover.no-cover {
+    display: none !important;
+}
+
+.notion-semantic-string {
+    white-space: normal !important;
+}
+
+.notion-link.link {
+    color: var(--color-text-yellow) !important;
+}
+
+.notion-divider {
+    padding: 1rem  0!important;
+    height: 1px;
+
+    flex-basis: 75% !important;
+    max-width: 75% !important;
+    width: 75% !important;
+    margin: 0 auto !important;
+}

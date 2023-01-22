@@ -1,0 +1,19 @@
+/*
+ * Each BG have a function/ style
+ *
+ * Default  : N/A
+ * Grey     :
+ * Brown    :
+ * Orange   :
+ * Yellow   :
+ * Blue     :
+ * Green    :
+ * Purple   :
+ * Pink     :
+ * Red      : Hidden
+ *
+*/
+
+.bg-red {
+    display: none !important;
+}

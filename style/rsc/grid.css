@@ -1,0 +1,131 @@
+body {
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+h1 + *, h2 + *, h3 + * {
+    margin-top:.8em !important;
+}
+
+h1 + h1, h1 + h2, h1 + h3,
+h2 + h1, h2 + h2, h2 + h3,
+h3 + h1, h3 + h2, h3 + h3 {
+    margin-top:.4em !important;
+}
+
+p + h1, ul + h1, ol + h1,
+p + h2, ul + h2, ol + h2, 
+p + h3, ul + h3, ol + h3 {
+    margin-top: 1.6em !important;
+}
+
+p + *, ul + *, ol + * {
+    margin-top: .8em !important;
+}
+
+ul, ol {
+    margin-left: 1.17647em !important;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+nav ul, nav ol {
+    margin: 0 !important;
+    list-style: none !important;
+}
+
+li li {
+    font-size: 1rem !important;
+}
+
+
+.super-content {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 980px !important;
+    position:relative !important;
+}
+
+.super-content:not(.max-width) article{
+    flex-basis: 75% !important;
+    max-width: 75% !important;
+    width: 75% !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.super-content.max-width {
+    max-width: 1298px !important;
+    padding: 2em !important;
+    margin-top: 4em !important;
+}
+
+.notion-column-list {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction:row !important;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    gap: var(--column-spacing);
+    justify-content: space-between;
+}
+.notion-column {
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    min-width:0px !important;
+}
+
+@media only screen and (min-width: 1441px) {
+    .super-content {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        max-width: 980px !important;
+    }
+    .super-content.max-width {
+        max-width: 1298px !important;
+        padding: 2em !important;
+        margin-top: 4em !important;
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .super-content {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        max-width: 692px !important;
+    }
+    .super-content.max-width {
+        max-width: 1298px !important;
+        padding: 2em !important;
+        margin-top: 4em !important;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .super-content {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        max-width:87.5% !important;
+    }
+
+    .super-content:not(.max-width) article{
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .super-content.max-width {
+        max-width: 1400px !important;
+        padding: 2em 1em !important;
+        margin-top: 3em !important;
+    }
+}

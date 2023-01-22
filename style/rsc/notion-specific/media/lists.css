@@ -1,0 +1,7 @@
+.notion-bulleted-list {
+    list-style-type: disc !important;
+}
+
+.notion-numbered-list {
+    list-style-type: decimal !important;
+}

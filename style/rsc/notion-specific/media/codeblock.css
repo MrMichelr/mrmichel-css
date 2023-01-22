@@ -1,0 +1,113 @@
+.notion-code pre {
+    font-family: 'Courier New', Courier, monospace !important;
+    border: 1px solid #d2d2d7 !important;
+    background-color: var(--color-bg-darker) !important;
+    margin-bottom: 1.5em !important;
+    padding: 20px 30px 20px !important;
+    white-space: pre-wrap !important;
+    transform: translate3d(0, 0, 0) !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    word-wrap: normal !important;
+    -moz-tab-size: 4 !important;
+    -o-tab-size: 4 !important;
+    -webkit-tab-size: 4 !important;
+    -ms-tab-size: 4 !important;
+    tab-size: 4 !important;
+}
+.notion-code pre code {
+    font-size: .8rem !important;
+    line-height: 1.8em !important;
+    color: #000 !important;
+    -webkit-font-smoothing: auto !important;
+    white-space: inherit !important;
+}
+
+.notion-semantic-string .code {
+    font-family: 'Courier New', Courier, monospace !important;
+    border: 1px solid #d2d2d7 !important;
+    background-color: var(--color-bg-darker) !important;
+
+    font-size: 1rem !important;
+    line-height: 1.8em !important;
+    -webkit-font-smoothing: auto !important;
+    white-space: inherit !important;
+    color: #ff4081 !important;
+
+    padding: 0.2em 0.4em !important;
+    word-break: break-word !important;
+}
+
+/* Token color*/
+.token.cdata,
+.token.comment,
+.token.doctype,
+.token.prolog {
+    color: #708090
+}
+
+.token.punctuation {
+    color: #999
+}
+
+.token.namespace {
+    opacity: .7
+}
+
+.token.boolean,
+.token.constant,
+.token.deleted,
+.token.number,
+.token.property,
+.token.symbol,
+.token.tag {
+    color: var(--color-text-red) !important;
+}
+
+.token.attr-name,
+.token.builtin,
+.token.char,
+.token.inserted,
+.token.selector,
+.token.string {
+    color: #690
+}
+
+.language-css .token.string,
+.style .token.string,
+.token.entity,
+.token.operator,
+.token.url {
+    color: #9a6e3a !important;
+    background: hsla(0, 0%, 100%, .5)
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #07a
+}
+
+.token.class-name,
+.token.function {
+    color: #dd4a68
+}
+
+.token.important,
+.token.regex,
+.token.variable {
+    color: #e90
+}
+
+.token.bold,
+.token.important {
+    font-weight: 700
+}
+
+.token.italic {
+    font-style: italic
+}
+
+.token.entity {
+    cursor: help
+}

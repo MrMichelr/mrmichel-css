@@ -1,0 +1,11 @@
+.notion-file {
+    padding: .2em .4em !important;
+}
+.notion-file .notion-file__title{
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    margin-right: .4em !important;
+}
+.notion-file .notion-file__size{
+    font-size: .75rem !important;
+}

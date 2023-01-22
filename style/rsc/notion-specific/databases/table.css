@@ -1,0 +1,41 @@
+.notion-collection-table {
+    width: 100% !important;
+    table-layout: fixed !important;
+    margin-top: 46px !important;
+    margin-bottom: 0 !important;
+}
+
+table.notion-collection-table tr{
+    border: 1px solid black !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-top: 0 !important;
+
+    padding: 1rem 0 !important;
+}
+
+table.notion-collection-table tr td{
+    font-size: 1rem !important;
+    line-height: 1.47059 !important;
+    font-weight: 400 !important;
+    letter-spacing: -0.022em !important;
+
+    height: auto !important;
+}
+
+.notion-collection-table__cell.title .notion-property__title__icon-wrapper {
+    width: 32px !important;
+    height: 32px !important;
+    margin-left: 8px !important;
+    margin-right: 16px !important;
+}
+.notion-collection-table__cell.title .notion-semantic-string {
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 735px) {
+    table.notion-collection-table tr {
+        grid-template-columns: 1fr !important;
+    }
+}
