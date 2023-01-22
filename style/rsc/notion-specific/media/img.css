@@ -4,3 +4,15 @@ img, picture{
     max-width: 100% !important;
     margin: 1.5em auto 1.5em 0 !important;
 }
+
+.notion-image span{
+    box-sizing: border-box !important;
+    display: block !important;
+    overflow: hidden !important;
+    background-image: none !important;
+    opacity: 1 !important;
+    border: unset !important;
+    margin: unset !important;
+    padding: unset !important;
+    position: relative !important;
+}
