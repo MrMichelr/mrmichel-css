@@ -55,6 +55,15 @@
     align-items: center !important;
     border-radius: 230px !important;
 }
+@media (max-width: 860px) {
+    .super-navbar__item-list {
+        display: none !important;
+    }
+    
+    .super-navbar__logo {   
+        position: relative !important;
+    }
+}
 
 @media (max-width: 546px) {
     .super-navbar__menu-wrapper, .super-navbar__menu {

@@ -32,5 +32,5 @@
 }
 
 .notion-collection-list__item-content .notion-property__text {
-    max-width: 100%;
+    max-width: 100% !important;
 }
