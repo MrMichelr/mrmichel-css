@@ -74,7 +74,7 @@ a:not([class]) {
     text-decoration-skip-ink: auto !important;
 }
 
-.color-gray a {
+.color-gray .notion-link.link {
     color: var(--color-text-default) !important;
 }
 
