@@ -74,6 +74,10 @@ a:not([class]) {
     text-decoration-skip-ink: auto !important;
 }
 
+.color-gray a {
+    color: var(--color-text-default) !important;
+}
+
 /* Inherit fonts for inputs and buttons */
 input,
 button,
