@@ -51,6 +51,10 @@ li li {
     margin-right: auto !important;
 }
 
+.super-content, .super-content article {
+    display: flex !important;
+}
+
 .super-content article:not(.full-width) {
     flex-basis: 75% !important;
     max-width: 75% !important;

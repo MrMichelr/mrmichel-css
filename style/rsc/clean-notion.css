@@ -23,8 +23,7 @@
 .notion-divider {
     padding: 1rem  0!important;
     height: 1px;
-
-    flex-basis: 75% !important;
+    
     max-width: 75% !important;
     width: 75% !important;
     margin: 0 auto !important;
