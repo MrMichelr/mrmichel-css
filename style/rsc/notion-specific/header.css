@@ -117,7 +117,7 @@
     transition: opacity .2s ease-in-out, transform .2s ease-in-out
 }
 
-.super-navbar__menu {
+.super-navbar__menu-wrapper .super-navbar__menu {
     max-height: 100% !important;
     height: 100% !important;
     max-width: 100% !important;
@@ -128,7 +128,7 @@
     align-items: flex-end !important;
 }
 
-.super-navbar__menu-close {
+.super-navbar__menu-wrapper .super-navbar__menu-close {
     top: 0 !important;
     right: 0 !important;
     width: 48px !important;
@@ -136,7 +136,7 @@
     position: relative !important;
 }
 
-.super-navbar__menu-item-list {
+.super-navbar__menu-wrapper .super-navbar__menu-item-list {
     padding-top: 2rem !important;
     width: 100% !important;
     display: flex !important;
@@ -144,7 +144,7 @@
     align-items: center !important;
 }
 
-.super-navbar__item {
+.super-navbar__menu-wrapper .super-navbar__item {
     width: 100% !important;
     margin: 0 auto !important;
 }
