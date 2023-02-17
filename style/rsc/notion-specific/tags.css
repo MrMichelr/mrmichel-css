@@ -3,3 +3,7 @@
     border-radius: .2em !important;
 }
 
+.pill-red {
+    background: var(--color-pill-red) !important;
+    color: var(--color-pill-text-red) !important;
+}
