@@ -7,6 +7,10 @@
     margin: 0 !important;
 }
 
+.property__select {
+    gap: .5rem;
+}
+
 
 /* Big Cards */
 

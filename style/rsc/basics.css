@@ -27,16 +27,27 @@
     --color-bg-red: #FF2F5E !important;
 
     /* Tags */
-    --color-pill-default: rgba(206, 205, 202, 0.5);
-    --color-pill-gray: rgba(155, 154, 151, 0.4);
+    --color-pill-default: rgba(197, 177, 177, 0.2) !important;
+    --color-pill-gray: rgba(82, 85, 101, 0.2) !important;
     --color-pill-brown: rgba(140, 46, 0, 0.2);
-    --color-pill-orange: rgba(245, 93, 0, 0.2);
-    --color-pill-yellow: rgba(233, 168, 0, 0.2);
-    --color-pill-green: rgba(0, 135, 107, 0.2);
-    --color-pill-blue: rgba(0, 120, 223, 0.2);
-    --color-pill-purple: rgba(103, 36, 222, 0.2);
+    --color-pill-orange: rgba(255, 113, 0, 0.2) !important;
+    --color-pill-yellow: rgba(255, 190, 0, 0.2) !important;
+    --color-pill-green: rgba(39, 221, 127, 0.2) !important;
+    --color-pill-blue: rgba(0, 122, 255, 0.2) !important;
+    --color-pill-purple: rgba(100, 78, 219, 0.2) !important;
     --color-pill-pink: rgba(221, 0, 129, 0.2);
-    --color-pill-red: rgba(255, 0, 26, 0.2);
+    --color-pill-red: rgba(255, 47, 94, 0.2) !important;
+
+    --color-pill-text-default: var(--color-bg-default);
+    --color-pill-text-gray: var(--color-bg-gray);
+    --color-pill-text-brown: var(--color-bg-brown);
+    --color-pill-text-orange: var(--color-bg-orange);
+    --color-pill-text-yellow: var(--color-bg-yellow);
+    --color-pill-text-green: var(--color-bg-green);
+    --color-pill-text-blue: var(--color-bg-blue);
+    --color-pill-text-purple: var(--color-bg-purple);
+    --color-pill-text-pink: var(--color-bg-pink);
+    --color-pill-text-red: var(--color-bg-red);
 
     /* Other */
     --color-bg-default: #F3F2F2 !important;
