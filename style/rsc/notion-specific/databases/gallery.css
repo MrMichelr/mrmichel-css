@@ -7,11 +7,11 @@
     margin: 0 !important;
 }
 
-.property__select {
+.notion-property.notion-property__select {
     gap: .5rem !important;
 }
 
-.notion-collection-card-property + .notion-collection-card-property {
+.notion-collection-card__property + .notion-collection-card__property {
     margin-top: 1rem !important;
 }
 
