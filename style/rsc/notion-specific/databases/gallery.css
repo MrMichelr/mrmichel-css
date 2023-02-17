@@ -8,11 +8,11 @@
 }
 
 .property__select {
-    gap: .5rem;
+    gap: .5rem !important;
 }
 
 .notion-collection-card-property + .notion-collection-card-property {
-    margin-top: 1rem;
+    margin-top: 1rem !important;
 }
 
 
