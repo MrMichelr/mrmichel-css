@@ -6,7 +6,7 @@
  * Brown    :
  * Orange   :
  * Yellow   :
- * Blue     :
+ * Blue     : Center
  * Green    :
  * Purple   :
  * Pink     :
@@ -20,4 +20,11 @@
 }
 .bg-red {
     display: none !important;
+}
+
+.bg-blue {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center !important;
 }
