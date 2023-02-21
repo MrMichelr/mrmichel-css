@@ -23,6 +23,7 @@
 }
 
 .bg-blue {
+    background-color: transparent !important;
     text-align: center !important;
     margin-left: auto !important;
     margin-right: auto !important;
