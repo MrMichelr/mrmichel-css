@@ -17,6 +17,7 @@
 
 .super-navbar__logo {
     min-height: 40px !important;
+    max-height: 50px !important;
     margin: 0 20px !important;
     flex-grow: unset !important;
 
